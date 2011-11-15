@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-QuantaeRails::Application.config.secret_token = '5597128aef5d1a3c1b53c1c57c3eee4ffb8495c317f6e23310dbe04a962dff78d83ed45ecf7c49fe9114fc1902d9c534ec293c0c60e4b1c821338362012c7e7f'
+QuantaeRails::Application.config.secret_token = '802b7e77e6bc6c8915d020c15d94784ba474aac2b728c6b11a4abdd0ab01ea0c0c8c2604a7a3137dc6632cc4cd24d2310f6c1d6b46edb429c0471a1c0f3fbfe0'
