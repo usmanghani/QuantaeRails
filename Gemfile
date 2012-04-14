@@ -5,7 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', '1.3.4'
 
 
 # Gems used only for assets and not required
@@ -15,6 +15,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
 end
+gem 'rake', '0.9.2'
 
 gem 'jquery-rails'
 
@@ -29,6 +30,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'devise'
 
 group :test do
   # Pretty printed test output

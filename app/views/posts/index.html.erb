@@ -1,0 +1,30 @@
+<p><%= current_user.inspect %></p>
+<p><%= user_session %></p>
+<p><%= user_signed_in? %></p>
+<h1>Listing posts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Body</th>
+    <th>Postedat</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @posts.each do |post| %>
+  <tr>
+    <td><%= post.Title %></td>
+    <td><%= post.Body %></td>
+    <td><%= post.PostedAt %></td>
+    <td><%= link_to 'Show', post %></td>
+    <td><%= link_to 'Edit', edit_post_path(post) %></td>
+    <td><%= link_to 'Destroy', post, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Post', new_post_path %>
