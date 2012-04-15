@@ -5,7 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '1.3.4'
+gem 'sqlite3', '1.3.4', :require => 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -33,6 +33,7 @@ gem 'jquery-rails'
 gem 'devise', '>= 2.0'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
+gem 'nifty-generators'
 
 group :test do
   # Pretty printed test output
